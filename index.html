@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+<div class="container">
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.png" alt="panda-logo">
+    </a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" type="button" name="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Shoes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Backpack</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<!-- CAROUSEL -->
+<div class="container">
+  <div id="banner-carousel" class="carousel slide orange-bg" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#banner-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#banner-carousel" data-slide-to="1"></li>
+      <li data-target="#banner-carousel" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item px-5 py-4 active">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <h1>Mi LED TV 4A PRO 32</h1>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+            </p>
+            <h1 class="price-color">$1289</h1>
+            <button class="buy-now-button button-bg" type="button" name="button">BUY NOW <i class="fa fa-arrow-right pl-2"></i></button>
+          </div>
+          <div class="col-md-5">
+              <img src="images/banner-images/headphone.png" class="d-block w-100" alt="banner-image">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item px-5 py-4">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <h1>Mi LED TV 4A PRO 32</h1>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+            </p>
+            <h1 class="price-color">$1289</h1>
+            <button class="buy-now-button button-bg" type="button" name="button">BUY NOW <i class="fa fa-arrow-right pl-2"></i></button>
+          </div>
+          <div class="col-md-5">
+            <img src="images/banner-images/tv.png" class="d-block w-100" alt="banner-image">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item px-5 py-4">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <h1>Y-box Game Controller</h1>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+            </p>
+            <h1 class="price-color">$600</h1>
+            <button class="buy-now-button button-bg" type="button" name="button">BUY NOW <i class="fa fa-arrow-right pl-2"></i></button>
+          </div>
+          <div class="col-md-5">
+              <img src="images/banner-images/xbox.png" class="d-block w-100" alt="banner-image">
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" style="width:30px" href="#banner-carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" style="width:30px" href="#banner-carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+</div>
+<!-- CATEGORIES -->
+<div class="container categories my-4">
+  <h3 class="mb-4">Categories</h3>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="cat1 rounded d-flex justify-content-between align-items-center px-5 py-3">
+        <h1>Watch</h1>
+        <img src="images/categories/watch.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="cat2 rounded d-flex justify-content-between align-items-center px-5 py-3">
+        <h1>Bag</h1>
+        <img src="images/categories/bag.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="cat3 rounded d-flex justify-content-between align-items-center px-5 py-3">
+        <h1>Shoes</h1>
+        <img src="images/categories/shoes.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- CARD -->
+<div class="bg-light">
+  <!-- SHOES CARD-->
+  <div class="container bg-light">
+    <div class="row pt-5 pb-4">
+      <h3 class="font-weight-bold">Shoes</h3>
+      <a class="text-warning ml-auto font-weight-bold text-decoration-none" href="#">See All</a>
+    </div>
+    <div class="card-deck pb-5">
+      <div class="card shadow pt-5 pb-3 border-0 text-center">
+        <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+          <p class="card-text">Some quick example text to build on the card title.</p>
+          <h5 class="card-text">$320</h5>
+            <button class="buy-now-button bg-dark" type="button" name="button">BUY NOW <i class="fa fa-arrow-right pl-2"></i></button>
+        </div>
+      </div>
+      <div class="card shadow pt-5 pb-3 border-0 text-center">
+        <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Reebok Pump</h5>
+          <p class="card-text">Some quick example text to build on the card title.</p>
+          <h5 class="card-text">$320</h5>
+            <button class="buy-now-button bg-dark" type="button" name="button">BUY NOW <i class="fa fa-arrow-right pl-2"></i></button>
+        </div>
+      </div>
+      <div class="card shadow pt-5 pb-3 border-0 text-center">
+        <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Reebok All Terrain</h5>
+          <p class="card-text">Some quick example text to build on the card title.</p>
+          <h5 class="card-text">$320</h5>
+            <button class="buy-now-button bg-dark" type="button" name="button">BUY NOW <i class="fa fa-arrow-right pl-2"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- BACKPACK CARD-->
+  <div class="container bg-light">
+    <div class="row pt-5 pb-4">
+      <h3 class="font-weight-bold">Backpack</h3>
+      <a class="text-warning ml-auto font-weight-bold text-decoration-none" href="#">See All</a>
+    </div>
+    <div class="card-deck pb-5">
+      <div class="card shadow pt-5 pb-3 border-0 text-center">
+        <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ison Backpack</h5>
+          <p class="card-text">Some quick example text to build on the card title.</p>
+          <h5 class="card-text">$320</h5>
+            <button class="buy-now-button bg-dark" type="button" name="button">BUY NOW <i class="fa fa-arrow-right pl-2"></i></button>
+        </div>
+      </div>
+      <div class="card shadow pt-5 pb-3 border-0 text-center">
+        <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Biaowang Backpack </h5>
+          <p class="card-text">Some quick example text to build on the card title.</p>
+          <h5 class="card-text">$320</h5>
+            <button class="buy-now-button bg-dark" type="button" name="button">BUY NOW <i class="fa fa-arrow-right pl-2"></i></button>
+        </div>
+      </div>
+      <div class="card shadow pt-5 pb-3 border-0 text-center">
+        <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Dxyizu WS54 Smart </h5>
+          <p class="card-text">Some quick example text to build on the card title.</p>
+          <h5 class="card-text">$320</h5>
+            <button class="buy-now-button bg-dark" type="button" name="button">BUY NOW <i class="fa fa-arrow-right pl-2"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SUBSCRIBE -->
+<div class="container orange-bg d-flex align-items-center justify-content-center rounded mt-5 text-center">
+  <div class="py-5">
+    <h1>LET'S STAY IN TOUCH</h1>
+    <p>Get updates on sales specials and more</p>
+    <div class="input-group">
+      <input class="form-control border-0" placeholder="Enter you email" type="text" name="" value="">
+      <button class="btn button-bg input-group-append text-light" type="button" name="">Send</button>
+    </div>
+  </div>
+</div>
+<!-- FOOTER -->
+<footer class="mb-3 mt-5 text-center">
+  <p>&copy; Panda Eccomerce 2020 | All Rights Reserved</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
